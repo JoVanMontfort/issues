@@ -1,0 +1,43 @@
+name: Import Issues from CSV
+
+on:
+  workflow_dispatch:  # Handmatig starten via GitHub UI
+  push:
+    paths:
+      - 'data_driven_behaviour_backlog.csv'
+    branches:
+      - backlog
+  pull_request:
+    branches:
+      - backlog
+    paths:
+      - 'data_driven_behaviour_backlog.csv'
+
+jobs:
+  import-issues:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+          sudo apt-add-repository https://cli.github.com/packages
+          sudo apt update
+          sudo apt install gh -y
+
+      - name: Authenticate with GitHub CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh auth setup-git
+
+      - name: Run issue import script
+        run: python github_issue_importer.py
+
