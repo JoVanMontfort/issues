@@ -1,0 +1,11 @@
+Title,Description,Labels,Assignee,Milestone
+Landing Page UI,"Design and implement the landing page with tagline, features section, and CTA buttons.",frontend,,Phase 1
+Authentication UI,Create login and signup interfaces with validation and forgot password support.,frontend,,Phase 1
+Dashboard Layout and Navigation,"Build responsive dashboard layout with sidebar, top nav, and page routing.",frontend,,Phase 1
+Customer Profile View,"Display individual customer details, interactions, and sentiment analysis score.",frontend,,Phase 2
+Data Source Connector UI,"Enable users to connect sources like emails, surveys, or clickstream data.",integrations,,Phase 2
+Sentiment Summary Dashboard,Show sentiment distribution and trends across all customers.,analytics,,Phase 2
+Upload Customer Data,Allow drag-and-drop CSV upload for custom datasets with mapping options.,import,,Phase 2
+Customer Search & Filtering,"Enable searching/filtering of customers by sentiment, channel, or activity.",UX,,Phase 3
+UI Component Library Setup,Create a reusable component library using TailwindCSS or preferred framework.,chore,,Phase 1
+Mobile Layout Fixes,Ensure charts and tables are mobile responsive  fix overflow and spacing issues.,responsive,,Phase 3
