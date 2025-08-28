@@ -1,5 +1,4 @@
 Title,Status,Assignee,Labels,Description
-
 Design AI Host Welcome Page,To do,,"epic:AI Host Onboarding,design,onboarding","**Description:**
 Create a new landing experience where an AI host greets visitors when they land on the TriggerIQ site.
 **Tasks:**
@@ -7,7 +6,6 @@ Create a new landing experience where an AI host greets visitors when they land 
 - Create mockup with conversational UI (chat bubble or avatar)
 - Define visual style (brand colors, minimal UI)
 - Accessibility compliance check"
-
 Build AI Host Frontend Component,To do,,"epic:AI Host Onboarding,frontend,onboarding","**Description:**
 Develop the interactive AI host component that appears on the welcome page.
 **Tasks:**
@@ -15,7 +13,6 @@ Develop the interactive AI host component that appears on the welcome page.
 - Display initial greeting (personalized if possible)
 - Ask: “Which product or info are you looking for?”
 - Provide quick-reply buttons (Products, Pricing, Docs, Contact Sales)"
-
 AI Host Backend Integration,To do,,"epic:AI Host Onboarding,backend,AI","**Description:**
 Connect the frontend AI host to backend AI services.
 **Tasks:**
@@ -23,7 +20,6 @@ Connect the frontend AI host to backend AI services.
 - Set up intent recognition
 - Map intents to navigation destinations
 - Enable fallback responses"
-
 Define AI Conversation Flows,To do,,"epic:AI Host Onboarding,AI,content","**Description:**
 Draft the conversation trees and AI prompts for onboarding flow.
 **Tasks:**
@@ -31,14 +27,12 @@ Draft the conversation trees and AI prompts for onboarding flow.
 - Clarification script if user is vague
 - Responses for Products, Pricing, Docs, Contact
 - Hand-off to human support"
-
 User Personalization & Tracking,To do,,"epic:AI Host Onboarding,analytics,onboarding","**Description:**
 Enhance the AI host to remember user preferences and provide contextual onboarding.
 **Tasks:**
 - Store session-level data
 - Track selected paths
 - Log interactions for analytics"
-
 Analytics & Metrics Dashboard,To do,,"epic:AI Host Onboarding,analytics,metrics","**Description:**
 Track AI host usage and measure onboarding effectiveness.
 **Tasks:**
@@ -46,15 +40,13 @@ Track AI host usage and measure onboarding effectiveness.
 - Track drop-off points
 - Report conversion events (sign-up, demo request)
 - Create dashboard in analytics tool"
-
-Testing & QA,To do,,"epic:AI Host Onboarding,testing,QA","**Description:**
+Testing & QA,To do,,"epic:AI Host Onboarding,testing,quality-check","**Description:**
 Ensure the AI host onboarding experience works smoothly across devices and browsers.
 **Tasks:**
 - Cross-browser/device testing
 - Accessibility & performance testing
 - Conversation testing (edge cases, misspellings)
 - Security review"
-
 Launch Plan & Iteration,To do,,"epic:AI Host Onboarding,launch,onboarding","**Description:**
 Roll out AI onboarding in phases and improve based on feedback.
 **Tasks:**
