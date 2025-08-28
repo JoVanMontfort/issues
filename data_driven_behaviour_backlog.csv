@@ -1,5 +1,5 @@
 Title,Status,Assignee,Labels,Description
-Set up Linux-based Data Lake Environment,To do,,"infrastructure,data-lake’","As a data engineer, I want to set up a scalable data lake on a Linux OS (e.g. using Hadoop or MinIO), so that I can collect and store structured and unstructured customer data efficiently."
+Set up Linux-based Data Lake Environment,To do,,"infrastructure,data-lake","As a data engineer, I want to set up a scalable data lake on a Linux OS (e.g. using Hadoop or MinIO), so that I can collect and store structured and unstructured customer data efficiently."
 Configure secure data ingestion pipeline,To do,,"infrastructure,data-ingestion","As a developer, I want to create a secure ingestion pipeline (e.g. using Apache NiFi or custom ETL scripts), so that customer feedback and interaction data flows reliably into the data lake."
 Collect and normalize customer feedback,To do,,"feedback,data-processing","As a product analyst, I want to aggregate feedback from surveys, reviews, and support channels, so that it can be analyzed uniformly in the data lake."
 Perform sentiment analysis on feedback data,To do,,"feedback,analysis,NLP","As a data scientist, I want to apply sentiment analysis (e.g. using Python NLP libraries) to customer feedback, so that I can detect emotional tone and extract key themes."
